@@ -1,0 +1,57 @@
+/* Bordes y estilo general de las cards */
+.card {
+    border-radius: 12px; /* tu estilo actual */
+    background-color: transparent;
+    border: 0;
+}
+
+/* Imagen superior de la card */
+.card-img-top {
+    border-radius: 12px 12px 0 0; /* tu estilo actual */
+    height: 180px; /* tu estilo actual */
+    object-fit: cover;
+}
+
+/* Si quieres imágenes con altura diferente (opcional) */
+.card-img-top-custom {
+    height: 250px; /* altura que propuse antes, puedes ajustarla */
+    object-fit: cover;
+}
+
+/* Fondo semitransparente de la parte superior */
+.card-overlay-top {
+    background-color: #FFFFFF;
+}
+
+/* Fondo semitransparente de la parte inferior */
+.card-overlay-bottom {
+    background-color: rgba(173, 155, 136, 0.9);
+}
+
+/* Botón personalizado */
+.btn-custom {
+    background-color: #FFFFFF;
+    border: 1px solid #e5d4c2;
+    color: #AD9B88;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem; 
+}
+
+.btn-custom:hover {
+    background-color: #795E3F; /* café oscuro */
+    color: #FFFFFF; /* texto blanco */
+    border-color: #795E3F; /* opcional: que el borde también cambie al café */
+    transition: background-color 0.3s, color 0.3s; /* suaviza la transición */
+}
+
+
+/* Opcional: sombra suave y overflow para cards */
+.custom-card {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.card-title {
+    color: #AD9B88; /* por ejemplo, color marrón */
+    font-weight:700;
+}

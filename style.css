@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-custom {
+    background-color: #c0a789;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #b69b7b;
+}
+
+.nav-distribute {
+    width: 100%;
+    justify-content: space-around !important;
+    text-align: center;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover { color: #333 !important; }
+
+@media(max-width:992px){ .nav-link { font-size: 1.1rem; } }
+@media(max-width:768px){ .nav-link { font-size: 1rem; margin: 0 0.5rem; } }
+
+/* ========================================= */
+/* CARRUSEL — CORREGIDO */
+/* ========================================= */
+/* Fondo negro y tamaño base del carrusel */
+.carousel, .carousel-item {
+    background-color: #000 !important;
+}
+
+.carousel {
+    border-radius: 0 !important;
+    margin-top: 0 !important;
+}
+
+.hero-slide-img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* ========================================= */
+/* CAPA NEGRA SOBRE IMÁGENES */
+/* ========================================= */
+.carousel-item {
+    position: relative; /* necesario para pseudo-elemento */
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6); /* negro con 60% de transparencia */
+    z-index: 1; /* debajo del contenido */
+}
+
+/* Posición y estilo del contenido */
+.carousel-caption {
+    top: 10%;
+    left: 0;
+    right: 0;
+    text-align: left;
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    z-index: 2 !important; /* sobre capa negra */
+    pointer-events: none;
+}
+
+/* Botón "Conoce más" con colores y hover */
+.btn-conoce {
+    width: auto;
+    background-color: #ffffff; /* fondo blanco */
+    color: #AD9B88; /* texto rojo */
+    border: 0.15rem solid #AD9B88; /* borde rojo usando rem */
+    font-weight: 600;
+    font-size: 0.9rem; /* tamaño relativo */
+    padding: 0.5rem 1.2rem; /* padding relativo */
+    border-radius: 0.5rem; /* bordes redondeados */
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+}
+
+/* Hover */
+.btn-conoce:hover {
+    background-color: #AD9B88; /* fondo hover */
+    color: #ffffff; /* texto blanco */
+    border-color: #AD9B88;
+}
+
+/* Responsive: tablets y móviles */
+@media (max-width: 768px) {
+    .btn-conoce {
+        font-size: 0.85rem;
+        padding: 0.45rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-conoce {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.9rem;
+    }
+}
+
+/* Permitir clic solo dentro del contenido */
+.carousel-caption * {
+    pointer-events: auto;
+}
+
+/* Contenedor con espacio que evita invadir flechas */
+.carousel-caption .container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Panel lateral */
+.panel-acceso-custom {
+    background: rgba(44, 38, 33, 0.92);
+    border-radius: 12px;
+    padding: 15px;
+    color: #2C2621;
+}
+
+.panel-acceso-custom .btn-registro,
+.panel-acceso-custom .btn-ingreso {
+    background-color: #ffffff;
+    color: #2C2621;
+    border: 2px solid #2C2621;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover: cambiar fondo y texto a #AD9B88 */
+.panel-acceso-custom .btn-registro:hover,
+.panel-acceso-custom .btn-ingreso:hover {
+    background-color: #AD9B88;
+    color: #ffffff;
+    border-color: #AD9B88;
+}
+
+.text-block-limit {
+    max-width: 520px;
+}
+
+/* Flechas siempre arriba */
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 20 !important;
+}
+
+/* Ajuste del tamaño de H2 del carrusel */
+.carousel-caption h2.display-4 {
+    font-size: 2rem; /* menos grande que el display-4 por defecto */
+}
+
+/* ========================================= */
+/* TARJETAS DE SERVICIOS */
+/* ========================================= */
+.card {
+    border-radius: 12px;
+}
+
+.card-img-top {
+    border-radius: 12px 12px 0 0;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* ========================================= */
+/* FAQ / CONTACTO */
+/* ========================================= */
+.accordion-button {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.map-container {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+/* ========================================= */
+/* FOOTER */
+/* ========================================= */
+.footer-custom {
+    background-color: #ffffff;
+    border-top: 2px solid #d8d8d8;
+    margin-top: 40px;
+}
+
+/* ========================================= */
+/* RESPONSIVE — CARRUSEL Y CONTENIDO */
+

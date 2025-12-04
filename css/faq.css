@@ -1,0 +1,88 @@
+/* ============================
+   ESTILOS DE TEXTO PARA FAQS
+   ============================ */
+
+/* Título principal de la sección FAQ (h2) */
+section.py-5.bg-light > .container > h2 {
+    color: #AD9B88;        /* color de texto actualizado */
+    font-weight: 800;       /* igual que .text-nosotros */
+    font-size: 2rem;        /* tamaño deseado */
+    margin-bottom: 2rem;
+}
+
+/* Botones del acordeón principal */
+#faqAccordion .accordion-button {
+    background-color: #ffffff;
+    color: #AD9B88;          /* color de texto actualizado */
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    transition: 0.3s ease;
+}
+
+/* Hover en los botones */
+#faqAccordion .accordion-button:hover {
+    background-color: #795E3F;
+    color: #ffffff;
+}
+
+/* Botón abierto */
+#faqAccordion .accordion-button:not(.collapsed) {
+    background-color: #795E3F;
+    color: #ffffff;
+}
+
+/* Flecha */
+#faqAccordion .accordion-button::after {
+    filter: invert(31%) sepia(45%) saturate(485%) hue-rotate(6deg) brightness(90%) contrast(85%);
+}
+
+#faqAccordion .accordion-button:not(.collapsed)::after {
+    filter: invert(100%);
+}
+
+/* Botones del acordeón secundario */
+#innerAccordion .accordion-button {
+    background-color: #f9f9f9;
+    color: #AD9B88;          /* color de texto actualizado */
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+#innerAccordion .accordion-button:hover,
+#innerAccordion .accordion-button:not(.collapsed) {
+    background-color: #795E3F;
+    color: #ffffff;
+}
+
+/* Flecha interna */
+#innerAccordion .accordion-button::after {
+    filter: invert(31%) sepia(45%) saturate(485%) hue-rotate(6deg) brightness(90%) contrast(85%);
+}
+
+#innerAccordion .accordion-button:not(.collapsed)::after {
+    filter: invert(100%);
+}
+
+/* Cuerpo del acordeón principal y secundario */
+#faqAccordion .accordion-body,
+#innerAccordion .accordion-body {
+    background-color: #ffffff;
+    color: #AD9B88;       /* color de texto actualizado */
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 600;
+    border-left: 3px solid #795E3F;
+    padding: 1.2rem 1.3rem;
+}
+
+/* Ítems del acordeón */
+#faqAccordion .accordion-item,
+#innerAccordion .accordion-item {
+    background-color: #ffffff;
+    border: 1px solid #d7dce3;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}

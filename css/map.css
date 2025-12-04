@@ -1,0 +1,63 @@
+/* Estilos para que la sección se parezca a la imagen */
+.contact-map-section-custom {
+    background-color: #bfaea2; /* Color de fondo similar al de la imagen */
+    padding: 30px 0;
+    color: #4a4a4a; /* Color de texto para el contenido principal */
+}
+
+.contact-map-section-custom h2 {
+    color: #ffffff; /* Color de texto para el encabezado "Contacto" */
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-map-section-custom ul {
+    list-style: none; /* Elimina los bullets por defecto de Bootstrap */
+    padding-left: 0;
+}
+
+.contact-map-section-custom li {
+    font-size: 1.15rem;
+    line-height: 2.5;
+    color: #ffffff; /* Color de texto para los ítems de contacto */
+}
+
+/* Estilo para los bullets de la lista, ya que en la imagen son blancos */
+.contact-map-section-custom li::before {
+    content: '• ';
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Contenedor para el mapa (Actualizado para ser más grande y sin bordes/sombra) */
+.map-container {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 60%; /* Mapa más grande */
+    height: 0;
+    /* Se eliminó border-radius y box-shadow */
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 0;
+}
+
+/* Asegura que el mapa y el texto estén centrados verticalmente */
+.row-map-custom {
+    display: flex;
+    align-items: center; 
+}
+
+.contact-info-col {
+    background-color: #bfaea2; /* Asegura que la columna de información tenga el mismo color de fondo */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

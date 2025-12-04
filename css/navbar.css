@@ -1,0 +1,31 @@
+.navbar-custom {
+    background-color: #AD9B88;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #b69b7b;
+}
+
+.nav-distribute {
+    width: 100%;
+    justify-content: space-around !important;
+    text-align: center;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #333 !important;
+}
+
+@media (max-width: 992px) { 
+    .nav-link { font-size: 1.1rem; }
+}
+
+@media (max-width: 768px) { 
+    .nav-link { font-size: 1rem; margin: 0 0.5rem; } 
+}
