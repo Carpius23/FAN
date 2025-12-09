@@ -66,3 +66,10 @@
     }
 }
 
+@media (max-width: 912px) {
+    /* Oculta los cards de vídeo y beneficiarios */
+    .carousel-caption .col-lg-3.d-none-sm {
+        display: none !important;
+    }
+}
+

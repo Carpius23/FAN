@@ -34,9 +34,9 @@ html {
 
 .whatsapp-float {
     position: fixed;
-    bottom: 20px; /* distancia desde el borde inferior */
-    right: 20px;  /* distancia desde el borde derecho */
-    z-index: 1000; /* para que siempre esté encima de otros elementos */
+    bottom: 20px;
+    right: 20px;  
+    z-index: 1000; 
     width: 60px;
     height: 60px;
     display: flex;
@@ -51,6 +51,6 @@ html {
 }
 
 .whatsapp-float:hover {
-    transform: scale(1.1); /* efecto hover */
+    transform: scale(1.1); 
 }
 

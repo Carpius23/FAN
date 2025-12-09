@@ -76,10 +76,6 @@ if (pdfModal && linkActas) {
 }
 
 
-
-/* ----------------------------------------------------
-   MODAL PDF - REPORTE (nuevo y sin interferencia)
----------------------------------------------------- */
 const linkReporte = document.getElementById('linkReporte');
 
 if (pdfModal && linkReporte) {
