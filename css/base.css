@@ -1,3 +1,6 @@
+/* ============================
+   CONFIGURACIÓN GENERAL
+============================ */
 * {
     box-sizing: border-box;
 }
@@ -10,7 +13,13 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
+/* ============================
+   SECCIÓN NOSOTROS (GENÉRICA)
+============================ */
 .section-nosotros .text-nosotros {
     font-weight: 800;
     color: #795E3F;
@@ -23,15 +32,17 @@ html, body {
     color: #AD9B88;
 }
 
+/* ============================
+   PREGUNTAS (GENÉRICO)
+============================ */
 .text-preguntas {
     font-weight: 800;
     color: #795E3F;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
+/* ============================
+   WHATSAPP FLOATING BUTTON
+============================ */
 .whatsapp-float {
     position: fixed;
     bottom: 20px;
@@ -54,3 +65,126 @@ html {
     transform: scale(1.1); 
 }
 
+.section-nosotros {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section-nosotros h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: #795E3F;
+}
+
+.section-nosotros h3 {
+    margin-top: 2rem;
+    color: #795E3F;
+    font-weight: 800;
+}
+
+.section-nosotros ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.section-nosotros ul li {
+    background: #FFFFFF;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    border-left: 6px solid #AD9B88; /* Línea decorativa */
+    box-shadow: rgba(0, 0, 0, 0.08) 0 4px 10px;
+}
+
+.section-nosotros strong {
+    font-weight: 800;
+    color: #795E3F;
+}
+
+/* ESTILOS LIMPIOS PARA LOS LISTADOS ORDENADOS */
+.section-nosotros ol {
+    padding-left: 1.2rem;
+    margin: 0;
+}
+
+.section-nosotros ol li {
+    padding: 0.2rem 0;
+    color: #5e4d39;
+
+    /* ELIMINAR estilo de tarjeta */
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
+}
+
+
+.section-nosotros p {
+    color: #5e4d39;
+    margin-top: 0.8rem;
+}
+
+/* ============================
+   RESPONSIVE
+============================ */
+
+@media (max-width: 768px) {
+
+    .section-nosotros h2 {
+        font-size: 1.6rem;
+    }
+
+    .section-nosotros ul li {
+        padding: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+#tramiteModal .section-nosotros ul li {
+    background: none;
+    padding: 0.3rem 0;
+    margin-bottom: 0.3rem;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#tramiteModal .modal-header {
+    padding: 1rem 1.5rem 0.5rem;
+    border-bottom: none;
+}
+
+#tramiteModal .modal-title {
+    margin: 0;
+    font-weight: 900;
+    color: #795E3F;
+    font-size: 1.4rem;
+}
+
+#tramiteModal .modal-body {
+    padding-top: 0.5rem;
+}
+
+#tramiteModal ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0.5rem;
+}
+
+#tramiteModal ul li {
+    background: #ffffff;
+    padding: 0.7rem 1rem;
+    margin-bottom: 0.5rem;
+    border-left: 4px solid #AD9B88;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 6px;
+    color: #5e4d39;
+    font-size: 0.95rem;
+}
+
+#tramiteModal p:first-child {
+    margin-top: 0;
+}

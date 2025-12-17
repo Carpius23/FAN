@@ -1,7 +1,0 @@
-<div class="col-lg-3 text-center text-lg-end d-none-sm">
-                            <div class="card p-3 panel-acceso-custom">
-                                <h6 class="card-title text-white fw-bold text-center">Sistema integral de fondos</h6>
-                                <a href="https://sif.xxi-banorte.com/axxi/pages/login/login.jsf" class="btn btn-registro mb-2 w-100">Registro</a>
-                                <a href="https://sif.xxi-banorte.com/axxi/pages/login/frmRegUsuarioParticipante.jsf" class="btn btn-ingreso w-100">Ingreso</a>
-                            </div>
-                        </div>
