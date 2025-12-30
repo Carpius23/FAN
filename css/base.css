@@ -188,3 +188,8 @@ html {
 #tramiteModal p:first-child {
     margin-top: 0;
 }
+
+.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}

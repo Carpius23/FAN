@@ -1,4 +1,4 @@
-fetch('/data/faq.json')
+fetch('data/faq.json')
     .then(res => res.json())
     .then(data => {
         const container = document.getElementById('innerAccordion');
