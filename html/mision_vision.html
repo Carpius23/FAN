@@ -8,7 +8,8 @@
 
     <link rel="icon" href="public/FAN-LOGO-sin-fondo-6.png" type="image/png">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
 
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/cards.css">
@@ -21,6 +22,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!-- HEADER / NAVBAR -->
     <header>
@@ -37,207 +39,227 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav nav-distribute">
-                        <li class="nav-item"><a class="nav-link nav-link-lg" href="#nosotros">¿Qué es el FAN?</a></li>
-                        <li class="nav-item"><a class="nav-link nav-link-lg" href="#tramites">Trámites</a></li>
-                        <li class="nav-item"><a class="nav-link nav-link-lg" href="#contacto">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link nav-link-lg" href="../html/consultaDeSaldo.html">Consulta tu saldo</a></li>
-                        <li class="nav-item"><a class="nav-link nav-link-lg" href="#contacto">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg" href="../index.html">¿Qué es el FAN?</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg" href="../index.html#tramites">Trámites</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg" href="../index.html#contacto">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg"
+                                href="../html/consultaDeSaldo.html">Consulta tu saldo</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg" href="../index.html#contacto">Blog</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-<!-- CARRUSEL -->
-<div id="fanCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- CARRUSEL -->
+    <div id="fanCarousel" class="carousel slide" data-bs-ride="carousel">
 
-    <!-- Indicadores -->
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#fanCarousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#fanCarousel" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-    </div>
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#fanCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#fanCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
 
-    <!-- Slides -->
-    <div class="carousel-inner">
+        <!-- Slides -->
+        <div class="carousel-inner">
 
-        <!-- SLIDE 1 -->
-       <div class="carousel-item active">
-            <div class="slide-media">
-                <img src="../public/Carousel1.png" class="d-block w-100 hero-slide-img" alt="Slide 1">
-            </div>
-            <div class="carousel-caption d-block">
-                <div class="container">
-                    <div class="row justify-content-center align-items-start">
+            <!-- SLIDE 1 -->
+            <div class="carousel-item active">
+                <div class="slide-media">
+                    <img src="../public/Carousel1.png" class="d-block w-100 hero-slide-img" alt="Slide 1">
+                </div>
+                <div class="carousel-caption d-block">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-start">
 
-                        <div class="col-lg-7 text-start">
-                            <h2 class="display-4 fw-normal mb-3">¿Quieres consultar tu saldo?</h2>
-                            <p class="lead text-block-limit mb-4">
-                                En este breve video te mostramos, paso a paso, cómo registrarte en el portal Sistema
-                                Integral de Fondos (SIF) y acceder fácilmente a tu información.
-                            </p>
-                            <a class="btn btn-conoce"
-   href="#"
-   data-bs-toggle="modal"
-   data-bs-target="#pdfModal"
-   data-pdf="../public/Guía consulta de saldos (2).pdf">
-   Conoce más
-</a>
+                            <div class="col-lg-7 text-start">
+                                <h2 class="display-4 fw-normal mb-3">¿Quieres consultar tu saldo?</h2>
+                                <p class="lead text-block-limit mb-4">
+                                    En este breve video te mostramos, paso a paso, cómo registrarte en el portal Sistema
+                                    Integral de Fondos (SIF) y acceder fácilmente a tu información.
+                                </p>
+                                <a class="btn btn-conoce" href="#" data-bs-toggle="modal" data-bs-target="#pdfModal"
+                                    data-pdf="../public/Guía consulta de saldos (2).pdf">
+                                    Conoce más
+                                </a>
 
 
-                        </div>
+                            </div>
 
-                        <div class="col-lg-3 text-center text-lg-end d-none-sm">
-                            <div class="card p-3 panel-acceso-custom">
-                                <div class="ratio ratio-16x9">
-                                    <iframe src="https://www.youtube.com/embed/_Rt1edI6QwU" title="Vídeo tutorial" allowfullscreen></iframe>
+                            <div class="col-lg-3 text-center text-lg-end d-none-sm">
+                                <div class="card p-3 panel-acceso-custom">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe src="https://www.youtube.com/embed/_Rt1edI6QwU" title="Vídeo tutorial"
+                                            allowfullscreen></iframe>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- SLIDE 2 -->
-        <div class="carousel-item">
-            <div class="slide-media">
-                <img src="../public/imagenfuera.png" class="d-block w-100 hero-slide-img" alt="Slide 2">
-            </div>
-            <div class="carousel-caption d-block">
-                <div class="container">
-                    <div class="row justify-content-center align-items-start">
+            <!-- SLIDE 2 -->
+            <div class="carousel-item">
+                <div class="slide-media">
+                    <img src="../public/imagenfuera.png" class="d-block w-100 hero-slide-img" alt="Slide 2">
+                </div>
+                <div class="carousel-caption d-block">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-start">
 
-                        <div class="col-lg-7 text-start">
-                            <h2 class="display-4 fw-normal mb-3">Protege a los que amas</h2>
-                            <p class="lead text-block-limit mb-4">
-                                Tu ahorro es para quienes más quieres, haz click en la imagen o el botón de conoce más y registra a tus beneficiarios hoy mismo.
-                            </p>
-                            <a class="btn btn-conoce" href="https://pensiones.nayarit.gob.mx/beneficiarios/" target="_blank">Conoce más</a>
-                        </div>
-
-                        <div class="col-lg-3 text-center text-lg-end d-none-sm">
-                            <div class="card p-3 panel-acceso-custom mb-3">
-                                <a href="https://pensiones.nayarit.gob.mx/beneficiarios/">
-                                <img src="../public/beneficiarios.png" 
-                                     alt="Formato de beneficiarios FAN"
-                                     class="img-fluid clickable-img">
-                            </a>
+                            <div class="col-lg-7 text-start">
+                                <h2 class="display-4 fw-normal mb-3">Protege a los que amas</h2>
+                                <p class="lead text-block-limit mb-4">
+                                    Tu ahorro es para quienes más quieres, haz click en la imagen o el botón de conoce
+                                    más y registra a tus beneficiarios hoy mismo.
+                                </p>
+                                <a class="btn btn-conoce" href="https://pensiones.nayarit.gob.mx/beneficiarios/"
+                                    target="_blank">Conoce más</a>
                             </div>
-                        </div>
 
+                            <div class="col-lg-3 text-center text-lg-end d-none-sm">
+                                <div class="card p-3 panel-acceso-custom mb-3">
+                                    <a href="https://pensiones.nayarit.gob.mx/beneficiarios/">
+                                        <img src="../public/beneficiarios.png" alt="Formato de beneficiarios FAN"
+                                            class="img-fluid clickable-img">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#fanCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#fanCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
     </div>
+    <main>
+        <!-- SECCIÓN MISIÓN Y VISIÓN -->
 
-    <!-- Controles -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#fanCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-    </button>
+        <section id="mision-vision" class="py-4 section-nosotros">
+            <div class="container">
+                <!-- Nosotros -->
+                 <h3 class="mt-4">Nosotros</h3>
+                 <p class="text-nosotros-lead">
+                     El Fondo de Ahorro Nayarit (FAN) es una institución financiera, independiente del gobierno estatal, que
+                administra las cuentas individuales de ahorro para el retiro de los trabajadores afiliados, para
+                garantizarles un retiro digno y con bienestar. El FAN emplea la plataforma financiera de Afore XXI
+                Banorte, lo cual garantiza que las cuentas de sus afiliados estén seguras y den rendimientos. Además, su
+                operación es vigilada por la Comisión Nacional de Ahorro para el Retiro (CONSAR), en apego a la Ley del
+                SAR.
+                </p>
 
-    <button class="carousel-control-next" type="button" data-bs-target="#fanCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-    </button>
-</div>
-<main>
+                <!-- MISIÓN -->
+                <h3 class="mt-4">Misión</h3>
+                <p class="text-nosotros-lead">
+                    Administrar eficientemente el ahorro que hacen las y los trabajadores del estado de Nayarit para su
+                    retiro, asegurándose de que dichos recursos están adecuadamente invertidos, a fin de que las y los
+                    beneficiarios dispongan de fondos suficientes para gozar de un retiro con bienestar pleno.
+                </p>
 
-    <!-- SECCIÓN MISIÓN Y VISIÓN -->
-    <section id="mision-vision" class="pt-3 pb-5 section-nosotros">
-        <div class="container">
-            <!-- MISIÓN -->
-            <h3 class="mt-4">Misión</h3>
-            <p class="text-nosotros-lead">
-                Administrar eficientemente el ahorro que hacen las y los trabajadores del estado de Nayarit para su retiro, asegurándose de que dichos recursos están adecuadamente invertidos, a fin de que las y los beneficiarios dispongan de fondos suficientes para gozar de un retiro con bienestar pleno.
-            </p>
+                <!-- VISIÓN -->
+                <h3 class="mt-4">Visión</h3>
+                <p class="text-nosotros-lead">
+                    Convertir al FAN en una entidad económicamente viable, que contribuya a la sostenibilidad financiera
+                    de Nayarit y que permita a las y los trabajadores de los sectores público y privado del estado gozar
+                    de un retiro digno, garantizando la administración transparente y eficaz de sus ahorros.
+                </p>
+                <h3 class="mt-4">Organigrama</h3>
+                <img src="../public/organigrama.png"
+             alt="Organigrama"
+             class="img-fluid">
+            </div>
+        </section>
+    </main>
+    <footer class="footer-custom">
+        <div class="container py-5">
+            <div class="row text-center text-md-start">
 
-            <!-- VISIÓN -->
-            <h3 class="mt-4">Visión</h3>
-            <p class="text-nosotros-lead">
-                 Convertir al FAN en una entidad económicamente viable, que contribuya a la sostenibilidad financiera de Nayarit y que permita a las y los trabajadores de los sectores público y privado del estado gozar de un retiro digno, garantizando la administración transparente y eficaz de sus ahorros.
-            </p>
+                <!-- Columna Acerca del FAN -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h6 class="footer-title">Acerca del FAN</h6>
+                    <ul class="footer-links">
+                        <li><a href="../html/mision_vision.html">Historia</a></li>
+                        <li><a href="../html/mision_vision.html">Misión</a></li>
+                        <li><a href="../html/mision_vision.html">Visión</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna Productos -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h6 class="footer-title">Productos</h6>
+                    <ul class="footer-links">
+                        <li><a href="../index.html#tramites">Ahorro</a></li>
+                        <li><a href="../index.html#tramites">Servicios</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna Únete a nosotros -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h6 class="footer-title">Únete a nosotros</h6>
+                    <ul class="footer-links">
+                        <li><a href="../index.html#contacto">Ahorra con nosotros</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h6 class="footer-title">Acerca de</h6>
+                    <ul class="footer-links">
+                        <li><a href="../index.html#contacto">Contacto</a></li>
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#pdfModal"
+                                data-pdf="../public/Resultados_actuariales_Fondo_de_pensiones_abrogado-1.pdf">
+                                Actas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#pdfModal"
+                                data-pdf="../public/Reporte_NAYARIT_VF.pdf">
+                                Reporte
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p class="small mb-0">&copy; 2025 Fondo de Ahorro Nayarit. Todos los derechos reservados.</p>
+                </div>
+            </div>
         </div>
-    </section>
-</main>
-<footer class="footer-custom">
-    <div class="container py-5">
-        <div class="row text-center text-md-start">
-
-            <!-- Columna Acerca del FAN -->
-            <div class="col-md-3 mb-4 mb-md-0">
-                <h6 class="footer-title">Acerca del FAN</h6>
-                <ul class="footer-links">
-                    <li><a href="../html/mision_vision.html">Historia</a></li>
-                    <li><a href="../html/mision_vision.html">Misión</a></li>
-                    <li><a href="../html/mision_vision.html">Visión</a></li>
-                </ul>
-            </div>
-
-            <!-- Columna Productos -->
-            <div class="col-md-3 mb-4 mb-md-0">
-                <h6 class="footer-title">Productos</h6>
-                <ul class="footer-links">
-                    <li><a href="#">Ahorro</a></li>
-                    <li><a href="#">Servicios</a></li>
-                </ul>
-            </div>
-
-            <!-- Columna Únete a nosotros -->
-            <div class="col-md-3 mb-4 mb-md-0">
-                <h6 class="footer-title">Únete a nosotros</h6>
-                <ul class="footer-links">
-                    <li><a href="../index.html">Ahorra con nosotros</a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 mb-4 mb-md-0">
-                <h6 class="footer-title">Acerca de</h6>
-                <ul class="footer-links">
-                    <li><a href="../index.html#contacto">Contacto</a></li>
-                    <li>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#pdfModal" 
-                           data-pdf="../public/Resultados_actuariales_Fondo_de_pensiones_abrogado-1.pdf">
-                            Actas
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#pdfModal" 
-                           data-pdf="../public/Reporte_NAYARIT_VF.pdf">
-                            Reporte
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="row mt-4">
-            <div class="col text-center">
-                <p class="small mb-0">&copy; 2025 Fondo de Ahorro Nayarit. Todos los derechos reservados.</p>
+    </footer>
+    <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="pdfFrame" src="" width="100%" height="800px" frameborder="0"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
             </div>
         </div>
     </div>
-</footer>
-<div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-            </div>
-            <div class="modal-body">
-                <iframe id="pdfFrame" src="" width="100%" height="800px" frameborder="0"></iframe>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
