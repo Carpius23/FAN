@@ -22,6 +22,11 @@
     object-fit: cover; /* se recorta para llenar el contenedor */
     display: block;
 }
+.hero-slide-img{
+    height: 500px;          
+    object-fit: cover;
+    object-position: center 40%; 
+}
 
 /* Overlay del slide */
 .carousel-item {
