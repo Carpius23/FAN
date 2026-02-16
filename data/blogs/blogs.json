@@ -1,0 +1,99 @@
+{
+  "articulos": [
+    {
+      "id": 1,
+      "titulo": "El FAN está más cerca de ti que nunca",
+      "categoria": "Informativo",
+      "autor": "FAN Nayarit",
+      "fecha": "2026-01-01",
+      "imagen": "../public/images/blog1.png",
+
+      "resumen": "El FAN inicia 2026 con el compromiso de estar más cerca de ti y proteger tu ahorro para el retiro.",
+
+      "contenido": [
+        {
+          "subtitulo": "",
+          "texto": "En el Fondo de Ahorro Nayarit (FAN) iniciamos el 2026 con el propósito renovado de estar más cerca de ti, acompañarte de forma constante y ayudarte a cuidar lo más importante: tu futuro y el de tu familia."
+        },
+        {
+          "subtitulo": "",
+          "texto": "Sabemos que la verdadera tranquilidad nace de la confianza y de los resultados. Por eso, tu cuenta individual en el FAN está diseñada para ofrecerte transparencia, protección y certeza, asegurando que tu ahorro para el retiro esté bien administrado en todo momento."
+        },
+        {
+          "subtitulo": "",
+          "texto": "A continuación, te explicamos cómo acercarte al FAN en cuatro sencillos puntos."
+        },
+        {
+          "subtitulo": "1. Tu ahorro, claro y protegido",
+          "texto": "En el FAN creemos que tener información clara es una forma de bienestar. Nuestro sistema te permite tener la seguridad de que tus recursos están siendo administrados bajo un esquema confiable, sólido y enfocado en las y los trabajadores."
+        },
+        {
+          "subtitulo": "",
+          "texto": "Conocer cómo crece tu ahorro y mantenerte informado sobre tu cuenta individual te permite tomar decisiones con mayor seguridad y tranquilidad. Este año es un excelente momento para revisar tu saldo y mantenerte al tanto del avance de tu ahorro para el retiro."
+        },
+        {
+          "subtitulo": "2. Consulta tu saldo de forma fácil y segura",
+          "texto": "Acceder a tu estado de cuenta es un proceso rápido, confidencial y completamente seguro."
+        },
+        {
+          "subtitulo": "",
+          "texto": "Si aún no estás registrado, es muy sencillo hacerlo: https://bit.ly/3Ces3rn"
+        },
+        {
+          "subtitulo": "",
+          "texto": "Crea tu usuario en la plataforma."
+        },
+        {
+          "subtitulo": "",
+          "texto": "Cuando el sistema lo solicite, ingresa el Código de empresa: 22401001."
+        },
+        {
+          "subtitulo": "",
+          "texto": "Valida la información y listo."
+        },
+        {
+          "subtitulo": "",
+          "texto": "En cuestión de minutos podrás consultar tu cuenta individual y conocer el estado actual de tu ahorro para el retiro, desde donde estés."
+        },
+        {
+          "subtitulo": "3. Atención y orientación personalizada",
+          "texto": "Sabemos que cada persona tiene dudas distintas. Por eso, el FAN pone a tu disposición el Centro de Atención al Trabajador, donde podrás recibir orientación personalizada y cercana."
+        },
+        {
+          "subtitulo": "Ubicación",
+          "texto": "Plaza J&K, Planta Baja. Av. Insurgentes 1121, Col. Los Llanitos, Tepic, Nayarit."
+        },
+        {
+          "subtitulo": "Horario de atención",
+          "texto": "Lunes a viernes, de 8:00 a 18:00 horas."
+        },
+        {
+          "subtitulo": "Importante",
+          "texto": "No olvides llevar tu identificación oficial."
+        },
+        {
+          "subtitulo": "4. Nuestros canales de contacto",
+          "texto": "También puedes comunicarte con nosotros a través de nuestros canales oficiales:"
+        },
+        {
+          "subtitulo": "WhatsApp",
+          "texto": "31 1192 3284"
+        },
+        {
+          "subtitulo": "Teléfono",
+          "texto": "55 4170 3466"
+        },
+        {
+          "subtitulo": "Correo electrónico",
+          "texto": "infofan@fan-nayarit.com"
+        },
+        {
+          "subtitulo": "Redes sociales",
+          "texto": "Facebook: Fondo de ahorro Nayarit — X: @FANNayarit"
+        }
+      ],
+
+      "destacado": true
+    }
+  ]
+}

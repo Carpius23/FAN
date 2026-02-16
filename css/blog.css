@@ -1,0 +1,174 @@
+/* ============================
+   TITULO DE LA SECCIÓN
+============================ */
+
+.section-title {
+    font-weight: 800;
+    color: #795E3F;
+    margin-bottom: 2rem;
+}
+
+
+/* ============================
+   TARJETAS DEL BLOG
+============================ */
+
+.card-custom {
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    transition: all 0.25s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+
+/* Imagen */
+
+.card-img-top {
+    height: 180px;
+    width: 100%;
+    object-fit: fill;
+}
+
+/* Cuerpo */
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Categoría */
+
+.badge-info {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #795E3F;
+    margin-bottom: 6px;
+}
+
+
+/* Título */
+
+.card-body h5 {
+    font-weight: 800;
+    color: #795E3F;
+    margin-bottom: 6px;
+}
+
+
+/* Autor */
+
+.small-text {
+    font-size: 0.85rem;
+    color: #AD9B88;
+    font-weight: 600;
+}
+
+
+/* Descripción */
+
+.card-body p {
+    color: #5b5b5b;
+    font-weight: 500;
+}
+
+
+/* Fecha alineada abajo */
+
+.card-body small {
+    margin-top: auto;
+    font-weight: 600;
+    color: #AD9B88;
+}
+
+
+/* ============================
+   SIDEBAR
+============================ */
+
+.sidebar-box {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    margin-bottom: 24px;
+}
+
+
+/* Títulos de sidebar */
+
+.sidebar-title {
+    background: #AD9B88;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+
+/* Items del sidebar */
+
+.list-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.list-item:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Imagen pequeña */
+
+.list-item img {
+    width: 70px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* Texto del item */
+
+.list-item div div {
+    font-weight: 700;
+    color: #795E3F;
+    font-size: 0.95rem;
+}
+
+
+/* Fecha */
+
+.list-item small {
+    color: #AD9B88;
+    font-weight: 600;
+}
+
+
+/* ============================
+   RESPONSIVE
+============================ */
+
+@media (max-width: 991px) {
+
+    .sidebar-box {
+        margin-top: 2rem;
+    }
+
+}

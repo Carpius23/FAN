@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fondo de Ahorro Nayarit</title>
+
+    <link rel="icon" href="../public/FAN-LOGO-sin-fondo-6.png" type="image/png">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/carrusel.css">
+    <link rel="stylesheet" href="../css/faq.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/map.css">
+    <link rel="stylesheet" href="../css/blog.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container">
+
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../public/FAN-LOGO-sin-fondo-1.png"
+                        alt="FAN Logo"
+                        class="img-fluid"
+                        style="max-height: 8rem;">
+                </a>
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav nav-distribute">
+                        <li class="nav-item"><a class="nav-link nav-link-lg" href="../index.html">¿Qué es el FAN?</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg" href="../index.html#tramites">Trámites</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg" href="../html/blog.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg"
+                                href="../html/consultaDeSaldo.html">Consulta tu saldo</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg active"
+                                href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= BLOG ================= -->
+    <main class="container py-5">
+
+        <h4 class="section-title">
+            Sección informativa Fondo de ahorro de Nayarit
+        </h4>
+
+        <div class="row">
+
+            <!-- CONTENIDO PRINCIPAL -->
+            <div class="col-lg-8">
+
+                <div class="row g-4" id="contenedor-cards">
+                </div>
+
+            </div>
+
+            <!-- SIDEBAR -->
+            <div class="col-lg-4">
+
+                <!-- IMPORTANTE -->
+                <div class="sidebar-box">
+
+                    <div class="sidebar-title">Importante</div>
+
+                    <div id="importantes">
+                    </div>
+
+                </div>
+
+                <!-- RECIENTES -->
+                <div class="sidebar-box">
+
+                    <div class="sidebar-title">Recientes</div>
+
+                    <div id="recientes">
+                        <!-- CONTENIDO DINÁMICO -->
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer-custom">
+        <div class="container py-5">
+            <div class="row text-center text-md-start">
+
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h6 class="footer-title">Acerca del FAN</h6>
+                    <ul class="footer-links">
+                        <li><a href="../html/mision_vision.html">Historia</a></li>
+                        <li><a href="../html/mision_vision.html">Misión</a></li>
+                        <li><a href="../html/mision_vision.html">Visión</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h6 class="footer-title">Productos</h6>
+                    <ul class="footer-links">
+                        <li><a href="../index.html#tramites">Ahorro</a></li>
+                        <li><a href="../index.html#tramites">Servicios</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h6 class="footer-title">Únete a nosotros</h6>
+                    <ul class="footer-links">
+                        <li><a href="../index.html#contacto">Ahorra con nosotros</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h6 class="footer-title">Acerca de</h6>
+                    <ul class="footer-links">
+                        <li><a href="../index.html#contacto">Contacto</a></li>
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#pdfModal"
+                                data-pdf="../public/Resultados_actuariales_Fondo_de_pensiones_abrogado-1.pdf">
+                                Actas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#pdfModal"
+                                data-pdf="../public/Reporte_NAYARIT_VF.pdf">
+                                Reporte
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p class="small mb-0">&copy; 2025 Fondo de Ahorro Nayarit. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="../js/blog.js"></script>
+
+</body>
+</html>
