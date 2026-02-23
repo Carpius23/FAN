@@ -111,6 +111,11 @@
 /* Controles del carousel */
 .carousel-control-prev,
 .carousel-control-next {
+    width: 60px;
+    height: 80px;
+    top: 50%;
+    bottom: auto;             
+    transform: translateY(-50%);
     z-index: 20 !important;
 }
 

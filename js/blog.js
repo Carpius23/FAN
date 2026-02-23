@@ -8,9 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
             const contenedorImportantes = document.getElementById("importantes");
             const contenedorRecientes = document.getElementById("recientes");
 
-            // ==============================
-            // CARDS PRINCIPALES
-            // ==============================
             data.articulos.forEach(post => {
 
                 const card = `
@@ -33,9 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 contenedorCards.innerHTML += card;
             });
 
-            // ==============================
-            // IMPORTANTES
-            // ==============================
             const importantes = data.articulos.filter(p => p.destacado);
 
             importantes.forEach(post => {
@@ -53,9 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 contenedorImportantes.innerHTML += item;
             });
 
-            // ==============================
-            // RECIENTES (primeros 3)
-            // ==============================
             const recientes = data.articulos.slice(0, 3);
 
             recientes.forEach(post => {
