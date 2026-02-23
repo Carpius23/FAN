@@ -42,8 +42,8 @@
                         <li class="nav-item"><a class="nav-link nav-link-lg" href="../index.html">¿Qué es el FAN?</a></li>
                         <li class="nav-item"><a class="nav-link nav-link-lg" href="../index.html#tramites">Trámites</a></li>
                         <li class="nav-item"><a class="nav-link nav-link-lg" href="../index.html#contacto">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link nav-link-lg"
-                                href="../html/consultaDeSaldo.html">Consulta tu saldo</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg" href="../html/consultaDeSaldo.html">Consulta tu saldo</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg" href="../index.html#FAQ">Preguntas Frecuentes</a></li>
                         <li class="nav-item"><a class="nav-link nav-link-lg" href="../html/blog.html">Blog</a></li>
                     </ul>
                 </div>
@@ -65,7 +65,7 @@
         <div class="carousel-inner">
 
             <!-- SLIDE 1 -->
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="10000">
                 <div class="slide-media">
                     <img src="../public/images/carrusel3.jpg" class="d-block w-100 hero-slide-img" alt="Slide 1">
                 </div>
@@ -87,7 +87,7 @@
 
                             </div>
 
-                            <div class="col-lg-3 text-center text-lg-end d-none-sm">
+                            <div class="col-lg-4 text-center text-lg-end d-none-sm">
                                 <div class="card p-3 panel-acceso-custom">
                                     <h6 class="card-title text-center mb-2 fw-semibold">
                                         ¡Da click en el vídeo!
@@ -106,7 +106,7 @@
 
 
              <!-- SLIDE 2 -->
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="10000">
                 <div class="slide-media">
                     <img src="../public/Carousel1.png" class="d-block w-100 hero-slide-img" alt="Slide 2">
                 </div>
@@ -124,22 +124,16 @@
                                     target="_blank">Conoce más</a>
                             </div>
 
-                            <div class="col-lg-3 text-center text-lg-end d-none-sm">
+                            <div class="col-lg-4 text-center text-lg-end d-none-sm">
                                 <div class="card p-3 panel-acceso-custom mb-3">
                                     <h6 class="card-title text-center mb-2 fw-semibold">
                                         Formulario de beneficiarios
                                     </h6>
-                                    <a href="https://pensiones.nayarit.gob.mx/beneficiarios/" class="btn btn-conoce">
-
-                                        <p class="mb-2 fw-semibold">
-                                            ¿Tienes beneficiarios para que puedan disponer de tus ahorros del FAN?
-                                        </p>
-
-                                        <p class="mb-0 fw-semibold texto-haz-click">
-                                            Haz clic aquí para llenar este sencillo formato.
-                                        </p>
-
-                                    </a>
+                                    <a href="https://pensiones.nayarit.gob.mx/beneficiarios/">
+                        <img src="/public/images/beneficiarios.png" 
+                             alt="Formato de beneficiarios FAN"
+                             class="img-fluid clickable-img">
+                    </a>
                                 </div>
                             </div>
 
@@ -163,40 +157,44 @@
     <main>
         <!-- SECCIÓN MISIÓN Y VISIÓN -->
 
-        <section id="mision-vision" class="py-4 section-nosotros">
-            <div class="container">
-                <!-- Nosotros -->
-                 <h3 class="mt-4">Nosotros</h3>
-                 <p class="text-nosotros-lead">
-                     El Fondo de Ahorro Nayarit (FAN) es una institución financiera, independiente del gobierno estatal, que
-                administra las cuentas individuales de ahorro para el retiro de los trabajadores afiliados, para
-                garantizarles un retiro digno y con bienestar. El FAN emplea la plataforma financiera de Afore XXI
-                Banorte, lo cual garantiza que las cuentas de sus afiliados estén seguras y den rendimientos. Además, su
-                operación es vigilada por la Comisión Nacional de Ahorro para el Retiro (CONSAR), en apego a la Ley del
-                SAR.
-                </p>
+       <section id="mision-vision" class="py-4 section-nosotros">
+    <div class="container">
 
-                <!-- MISIÓN -->
-                <h3 class="mt-4">Misión</h3>
-                <p class="text-nosotros-lead">
-                    Administrar eficientemente el ahorro que hacen las y los trabajadores del estado de Nayarit para su
-                    retiro, asegurándose de que dichos recursos están adecuadamente invertidos, a fin de que las y los
-                    beneficiarios dispongan de fondos suficientes para gozar de un retiro con bienestar pleno.
-                </p>
+        <!-- NOSOTROS / HISTORIA -->
+        <h3 id="nosotros" class="mt-4">Nosotros</h3>
+        <p class="text-nosotros-lead">
+            El Fondo de Ahorro Nayarit (FAN) es una institución financiera, independiente del gobierno estatal, que
+            administra las cuentas individuales de ahorro para el retiro de los trabajadores afiliados, para
+            garantizarles un retiro digno y con bienestar. El FAN emplea la plataforma financiera de Afore XXI
+            Banorte, lo cual garantiza que las cuentas de sus afiliados estén seguras y den rendimientos. Además, su
+            operación es vigilada por la Comisión Nacional de Ahorro para el Retiro (CONSAR), en apego a la Ley del
+            SAR.
+        </p>
 
-                <!-- VISIÓN -->
-                <h3 class="mt-4">Visión</h3>
-                <p class="text-nosotros-lead">
-                    Convertir al FAN en una entidad económicamente viable, que contribuya a la sostenibilidad financiera
-                    de Nayarit y que permita a las y los trabajadores de los sectores público y privado del estado gozar
-                    de un retiro digno, garantizando la administración transparente y eficaz de sus ahorros.
-                </p>
-                <h3 class="mt-4">Organigrama</h3>
-                <img src="../public/organigrama.png"
+        <!-- MISIÓN -->
+        <h3 id="mision" class="mt-4">Misión</h3>
+        <p class="text-nosotros-lead">
+            Administrar eficientemente el ahorro que hacen las y los trabajadores del estado de Nayarit para su
+            retiro, asegurándose de que dichos recursos están adecuadamente invertidos, a fin de que las y los
+            beneficiarios dispongan de fondos suficientes para gozar de un retiro con bienestar pleno.
+        </p>
+
+        <!-- VISIÓN -->
+        <h3 id="vision" class="mt-4">Visión</h3>
+        <p class="text-nosotros-lead">
+            Convertir al FAN en una entidad económicamente viable, que contribuya a la sostenibilidad financiera
+            de Nayarit y que permita a las y los trabajadores de los sectores público y privado del estado gozar
+            de un retiro digno, garantizando la administración transparente y eficaz de sus ahorros.
+        </p>
+
+        <!-- ORGANIGRAMA -->
+        <h3 id="organigrama" class="mt-4">Organigrama</h3>
+        <img src="../public/organigrama.png"
              alt="Organigrama"
              class="img-fluid">
-            </div>
-        </section>
+
+    </div>
+</section>
     </main>
     <footer class="footer-custom">
         <div class="container py-5">
@@ -206,15 +204,15 @@
                 <div class="col-md-3 mb-4 mb-md-0">
                     <h6 class="footer-title">Acerca del FAN</h6>
                     <ul class="footer-links">
-                        <li><a href="../html/mision_vision.html">Historia</a></li>
-                        <li><a href="../html/mision_vision.html">Misión</a></li>
-                        <li><a href="../html/mision_vision.html">Visión</a></li>
+                        <li><a href="../html/mision_vision.html#mision">Misión</a></li>
+                        <li><a href="../html/mision_vision.html#vision">Visión</a></li>
+                        <li><a href="../html/mision_vision.html#organigrama">Organigrama</a></li>
                     </ul>
                 </div>
 
                 <!-- Columna Productos -->
                 <div class="col-md-3 mb-4 mb-md-0">
-                    <h6 class="footer-title">Productos</h6>
+                    <h6 class="footer-title">Tramites</h6>
                     <ul class="footer-links">
                         <li><a href="../index.html#tramites">Ahorro</a></li>
                         <li><a href="../index.html#tramites">Servicios</a></li>

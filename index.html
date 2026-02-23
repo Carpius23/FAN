@@ -41,8 +41,8 @@
                                 FAN?</a></li>
                         <li class="nav-item"><a class="nav-link nav-link-lg" href="#tramites">Trámites</a></li>
                         <li class="nav-item"><a class="nav-link nav-link-lg" href="#contacto">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link nav-link-lg" href="html/consultaDeSaldo.html">Consulta
-                                tu saldo</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg" href="html/consultaDeSaldo.html#nosotros">Consulta tu saldo</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-lg" href="#FAQ">Preguntas Frecuentes</a></li>
                         <li class="nav-item"><a class="nav-link nav-link-lg" href="html/blog.html">Blog</a></li>
                     </ul>
                 </div>
@@ -50,7 +50,7 @@
         </nav>
     </header>
 
-    <div id="fanCarousel" class="carousel slide" data-bs-ride="carousel">
+<div id="fanCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
 
         <!-- Indicadores -->
         <div class="carousel-indicators">
@@ -63,7 +63,7 @@
         <div class="carousel-inner">
 
             <!-- SLIDE 1 -->
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="10000">
                 <div class="slide-media">
                     <img src="public/images/carrusel3.jpg" class="d-block w-100 hero-slide-img" alt="Slide 1">
                 </div>
@@ -85,7 +85,7 @@
 
                             </div>
 
-                            <div class="col-lg-3 text-center text-lg-end d-none-sm">
+                            <div class="col-lg-4 text-center text-lg-end d-none-sm">
                                 <div class="card p-3 panel-acceso-custom">
                                     <h6 class="card-title text-center mb-2 fw-semibold">
                                         ¡Da click en el vídeo!
@@ -103,7 +103,7 @@
             </div>
 
             <!-- SLIDE 2 -->
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="10000">
                 <div class="slide-media">
                     <img src="public/Carousel1.png" class="d-block w-100 hero-slide-img" alt="Slide 2">
                 </div>
@@ -121,22 +121,17 @@
                                     target="_blank">Conoce más</a>
                             </div>
 
-                            <div class="col-lg-3 text-center text-lg-end d-none-sm">
+                            <div class="col-lg-4 text-center text-lg-end d-none-sm">
                                 <div class="card p-3 panel-acceso-custom mb-3">
                                     <h6 class="card-title text-center mb-2 fw-semibold">
                                         Formulario de beneficiarios
                                     </h6>
-                                    <a href="https://pensiones.nayarit.gob.mx/beneficiarios/" class="btn btn-conoce">
+                                    <a href="https://pensiones.nayarit.gob.mx/beneficiarios/">
+                        <img src="/public/images/beneficiarios.png" 
+                             alt="Formato de beneficiarios FAN"
+                             class="img-fluid clickable-img">
+                    </a>
 
-                                        <p class="mb-2 fw-semibold">
-                                            ¿Tienes beneficiarios para que puedan disponer de tus ahorros del FAN?
-                                        </p>
-
-                                        <p class="mb-0 fw-semibold texto-haz-click">
-                                            Haz clic aquí para llenar este sencillo formato.
-                                        </p>
-
-                                    </a>
                                 </div>
                             </div>
 
@@ -179,6 +174,7 @@
     <!-- SECCIÓN TARJETAS -->
     <section id="tramites" class="pb-2">
         <div class="container">
+            <h2 class="text-preguntas">Tramites</h2>
             <div class="row justify-content-center">
 
                 <!-- Pensiones -->
@@ -196,6 +192,29 @@
                                     Con gusto te asesoramos acerca de los requisitos para iniciar tu trámite de pensión.
                                 </p>
                                 <a href="#" class="btn btn-sm btn-custom open-modal" data-id="pensiones">
+                                    Más Información
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Consultas de saldo -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card custom-card shadow-sm overflow-hidden">
+                        <div class="position-relative">
+                            <img src="public/images/GOB_0397.jpg" class="card-img-top card-img-top-custom"
+                                alt="Consultas de saldo">
+
+                            <div class="position-absolute top-0 start-0 w-100 p-2 text-white card-overlay-top">
+                                <h5 class="card-title fw-bold m-0">Consultas de saldo</h5>
+                            </div>
+
+                            <div class="position-absolute bottom-0 start-0 w-100 p-3 text-white card-overlay-bottom">
+                                <p class="card-text small mb-3">
+                                    La consulta de saldo es un beneficio disponible para ti como trabajador.
+                                </p>
+                                <a href="html/consultaDeSaldo.html#nosotros" class="btn btn-sm btn-custom #pdfModal">
                                     Más Información
                                 </a>
                             </div>
@@ -254,7 +273,7 @@
     </section>
 
     <!-- SECCIÓN FAQ -->
-    <section class="py-4 bg-white">
+    <section id="FAQ" class="py-4 bg-white">
         <div class="container">
             <h2 class="text-preguntas">¿Tienes preguntas?</h2>
 
@@ -286,11 +305,10 @@
             <div class="row row-map-custom">
                 <div class="col-lg-6 mb-4 mb-lg-0 contact-info-col">
                     <ul class="list-unstyled">
-                        <li><strong>Centro de atención telefónica</strong>: 5541703466</li>
+                        <li><strong>Centro de atención telefónica</strong>: 55-4170-3466</li>
                         <li><strong>Correo</strong>: <a
                                 href="mailto:infofan@fan-nayarit.com">infofan@fan-nayarit.com</a></li>
-                        <li><strong>Centro de Atención al Trabajador</strong>: Plaza J&K, Av. Insurgentes 1121, local
-                            31, Tepic, Nayarit</li>
+                        <li><strong>Centro de Atención al Trabajador</strong>: Plaza J&K, Av. Insurgentes No. 1121, Planta Baja, Local 14, C.P. 63170, Tepic, Nayarit.</li>
 
                         <!-- Redes sociales -->
                         <li class="mt-2">
@@ -299,8 +317,12 @@
                                 <i class="bi bi-facebook fs-4"></i>
                             </a>
 
-                            <a href="https://x.com/FANNayarit" target="_blank" class="text-white text-decoration-none">
+                            <a href="https://x.com/FANNayarit" target="_blank" class="me-3 text-white text-decoration-none">
                                 <i class="bi bi-twitter-x fs-4"></i>
+                            </a>
+
+                            <a href="https://wa.me/523111923284" target="_blank" class="text-white text-decoration-none">
+                                <i class="bi bi-whatsapp fs-4"></i>
                             </a>
                         </li>
 
@@ -329,14 +351,15 @@
                 <div class="col-md-3 mb-4 mb-md-0">
                     <h6 class="footer-title">Acerca del FAN</h6>
                     <ul class="footer-links">
-                        <li><a href="html/mision_vision.html">Misión</a></li>
-                        <li><a href="html/mision_vision.html">Visión</a></li>
+                        <li><a href="html/mision_vision.html#mision">Misión</a></li>
+                        <li><a href="html/mision_vision.html#vision">Visión</a></li>
+                        <li><a href="html/mision_vision.html#organigrama">Organigrama</a></li>
                     </ul>
                 </div>
 
                 <!-- Columna Productos -->
                 <div class="col-md-3 mb-4 mb-md-0">
-                    <h6 class="footer-title">Productos</h6>
+                    <h6 class="footer-title">Tramites</h6>
                     <ul class="footer-links">
                         <li><a href="index.html">Ahorro</a></li>
                         <li><a href="index.html">Servicios</a></li>

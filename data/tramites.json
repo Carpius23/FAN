@@ -1,7 +1,7 @@
 {
   "baja_laboral": {
     "titulo": "Retiro por baja laboral",
-    "contenido": "<p>De acuerdo con lo establecido en el <strong>Artículo 89 de la Ley del Fondo de Ahorro para el Retiro Digno de las Trabajadoras y de los Trabajadores del Estado Libre y Soberano de Nayarit</strong>, el trabajador puede disponer del <strong>80 % de las cuotas</strong> que él mismo aportó al Fondo, excluyendo las que se destinen a gastos de administración.</p><p>Al hacerlo, el trabajador perderá el tiempo cotizado asociado a dichas aportaciones.</p><h6>Requisitos:</h6><ul><li>a. INE (original y copia)</li><li>b. CURP actualizado, con vigencia no mayor a seis meses (original)</li><li>c. Baja laboral (mayor a seis meses a partir de la fecha de baja)</li><li>d. Estado de cuenta bancario no mayor a tres meses, a nombre del solicitante</li></ul>"
+    "contenido": "<p>De acuerdo con lo establecido en el <strong>Artículo 89 de la Ley del Fondo de Ahorro para el Retiro Digno de las Trabajadoras y de los Trabajadores del Estado Libre y Soberano de Nayarit</strong>, el trabajador puede disponer del <strong>80 % de las cuotas</strong> que él mismo aportó al Fondo, excluyendo las que se destinen a gastos de administración.</p><p>Al hacerlo, el trabajador perderá el tiempo cotizado asociado a dichas aportaciones.</p><h6>Requisitos:</h6><ul><li>a. INE (original) </li><li>b. CURP actualizado, con vigencia no mayor a seis meses (original)</li><li>c. Baja laboral (mayor a seis meses a partir de la fecha de baja)</li><li>d. Estado de cuenta bancario no mayor a tres meses, a nombre del solicitante</li></ul>"
   },
 
   "pensiones": {
@@ -10,7 +10,7 @@
 },
 
   "aclaraciones": {
-    "titulo": "Aclaración de saldos",
-    "contenido": "<p>Si al consultar tu saldo tienes dudas sobre lo que se ve reflejado en el detalle de la consulta, puedes acercarte a nuestro <strong>Centro de Atención al Trabajador</strong> para brindarte una asesoría personalizada y aclarar tus dudas.</p><h6>Requisitos:</h6><ul><li>a. INE (original y copia)</li></ul>"
+    "titulo": "Aclaraciones de saldos",
+    "contenido": "<p>En el Centro de Atención al Trabajador tenemos personal especializado para apoyarte a realizar cualquier aclaración brindándote una asesoría personalizada. Nos puedes encontrar en Plaza J&K, Av. Insurgentes No. 1121, Planta Baja, Local 14, C.P. 63170, Tepic, Nayarit.”</p><h6>Requisitos:</h6><ul><li>a. INE (original) </li></ul>"
   }
 }
