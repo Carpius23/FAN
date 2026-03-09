@@ -35,15 +35,16 @@ document.addEventListener("DOMContentLoaded", () => {
             importantes.forEach(post => {
 
                 const item = `
-<div class="list-item">
-    <img src="${post.imagen}">
-    <div>
-        <div>${post.titulo}</div>
-        <small>${post.fecha}</small>
-    </div>
-</div>
+<a href="post.html?id=${post.id}" class="list-item-link">
+  <div class="list-item">
+      <img src="${post.imagen}">
+      <div>
+          <div>${post.titulo}</div>
+          <small>${post.fecha}</small>
+      </div>
+  </div>
+</a>
 `;
-
                 contenedorImportantes.innerHTML += item;
             });
 
@@ -52,13 +53,15 @@ document.addEventListener("DOMContentLoaded", () => {
             recientes.forEach(post => {
 
                 const item = `
-<div class="list-item">
-    <img src="${post.imagen}">
-    <div>
-        <div>${post.titulo}</div>
-        <small>${post.fecha}</small>
-    </div>
-</div>
+<a href="post.html?id=${post.id}" class="list-item-link">
+  <div class="list-item">
+      <img src="${post.imagen}">
+      <div>
+          <div>${post.titulo}</div>
+          <small>${post.fecha}</small>
+      </div>
+  </div>
+</a>
 `;
 
                 contenedorRecientes.innerHTML += item;

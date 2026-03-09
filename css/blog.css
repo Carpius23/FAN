@@ -172,3 +172,17 @@
     }
 
 }
+
+.list-item-link{
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.list-item{
+  transition: transform 0.2s ease;
+}
+
+.list-item:hover{
+  transform: scale(1.05);
+}

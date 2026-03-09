@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const pdfModal = document.getElementById('pdfModal');
     const pdfFrame = document.getElementById('pdfFrame');
 
+
     if (pdfModal && pdfFrame) {
 
         pdfModal.addEventListener('show.bs.modal', function (event) {
@@ -30,4 +31,5 @@ document.addEventListener('DOMContentLoaded', function() {
             pdfFrame.setAttribute('src', '');
         });
     }
+
 });
