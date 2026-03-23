@@ -46,12 +46,11 @@
 }
 
 
-/* Opcional: sombra suave y overflow para cards */
 .custom-card {
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     overflow: hidden;
 }
 .card-title {
-    color: #AD9B88; /* por ejemplo, color marrón */
+    color: #AD9B88; 
     font-weight:700;
 }
