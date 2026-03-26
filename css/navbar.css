@@ -1,14 +1,15 @@
 .navbar-custom {
     background-color: #AD9B88;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-bottom: 2px solid #b69b7b;
 }
 
+
 .nav-distribute {
-    width: 100%;
-    justify-content: space-around !important;
-    text-align: center;
+    width: auto;
+    justify-content: flex-end !important;
+    gap: 2rem; /* espacio entre links */
 }
 
 .nav-link {
@@ -28,4 +29,13 @@
 
 @media (max-width: 768px) { 
     .nav-link { font-size: 1rem; margin: 0 0.5rem; } 
+}
+
+.navbar .container {
+    padding-left: 0;
+}
+
+.logo-navbar {
+    height: 75px;
+    width: auto;
 }

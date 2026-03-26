@@ -1,0 +1,19 @@
+{
+  "guia_saldo": {
+    "titulo": "Guía de consulta de saldo",
+    "contenido": "<p>Manual paso a paso para consultar tu saldo en el Sistema Integral de Fondos (SIF).</p>",
+    "pdf": "../public/Guía consulta de saldos (2).pdf"
+  },
+
+  "reporte_financiero": {
+    "titulo": "Reporte financiero",
+    "contenido": "<p>Informe actualizado sobre el estado del Fondo de Ahorro Nayarit.</p>",
+    "pdf": "../public/Reporte_NAYARIT_VF.pdf"
+  },
+
+  "actas": {
+    "titulo": "Actas oficiales",
+    "contenido": "<p>Documentación legal y administrativa del fondo de ahorro.</p>",
+    "pdf": "../public/Resultados_actuariales_Fondo_de_pensiones_abrogado-1.pdf"
+  }
+}
