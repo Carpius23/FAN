@@ -1,18 +1,17 @@
 @media (max-width: 992px) {
     .hero-slide-img { height: 360px; }
-    .carousel-caption { top: 7%; text-align: center; } /* subimos un poco más */
+    .carousel-caption { top: 7%; text-align: center; } 
     .carousel-caption h2.display-4 { font-size: 1.8rem; }
     .panel-acceso-custom { margin-top: 20px; width: 70%; margin-left: auto; margin-right: auto; }
 }
 
 @media (max-width: 768px) {
     .hero-slide-img { height: 300px; }
-    .carousel-caption { top: 3%; text-align: center; } /* subimos más la caption */
+    .carousel-caption { top: 3%; text-align: center; }
     .carousel-caption .container { padding-left: 5%; padding-right: 5%; }
     .carousel-caption h2.display-4 { font-size: 1.6rem; text-align: center; }
     .carousel-caption p { font-size: 0.95rem; text-align: center; }
 
-    /* Centrado del contenido y columnas */
     .carousel-caption .row {
         flex-direction: column !important;
         align-items: center !important;
@@ -26,15 +25,15 @@
 
     .panel-acceso-custom { width: 100%; margin-top: 20px; }
 
-    /* Botón "Conoce más" responsive */
+
     .btn-conoce {
         font-size: 0.8rem;
         padding: 0.4rem 1rem;
         display: inline-block;
-        margin: 0 0 0 0; /* subimos el botón al máximo cercano al texto */
+        margin: 0 0 0 0; 
     }
 
-    /* Imagen beneficiarios responsive */
+
     .clickable-img {
         max-width: 80%;
         height: auto;
@@ -48,25 +47,24 @@
 
 @media (max-width: 480px) {
     .hero-slide-img { height: 220px; }
-    .carousel-caption { top: 2%; padding-left: 10px; padding-right: 10px; } /* subimos aún más */
+    .carousel-caption { top: 2%; padding-left: 10px; padding-right: 10px; } 
     .carousel-caption h2.display-4 { font-size: 1.3rem; }
     .carousel-caption p { font-size: 0.85rem; text-align: center; }
     .panel-acceso-custom { padding: 10px; }
 
-    /* Botón "Conoce más" móvil muy pequeño */
+   
     .btn-conoce {
         font-size: 0.75rem;
         padding: 0.35rem 0.8rem;
-        margin: 0; /* sin margen superior, pegado al texto */
+        margin: 0; 
     }
 
-    /* Imagen beneficiarios en móviles muy pequeños */
     .clickable-img {
         max-width: 70%;
     }
 }
 
-@media (max-width: 820px) {
+@media (max-width: 993px) {
 
     .carousel-caption .col-lg-4.d-none-sm {
         display: none !important;

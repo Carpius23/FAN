@@ -7,9 +7,14 @@
 
 
 .nav-distribute {
-    width: auto;
-    justify-content: flex-end !important;
-    gap: 2rem; /* espacio entre links */
+    display: flex;
+    flex-wrap: wrap; /* IMPORTANTE */
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    white-space: nowrap;
 }
 
 .nav-link {
